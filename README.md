@@ -15,13 +15,13 @@ Este proyecto API Node.js está diseñado para gestionar productos en una base d
 
 ## Rutas de la API
 
-- **Crear Producto:** `POST /api/v1/products`
+- **Crear Producto:** `POST http://bellotj.alwaysdata.net/api/v1/add`
   - Crea un nuevo producto en la base de datos.
 
-- **Editar Producto:** `POST /api/v1/products/:product_id`
+- **Editar Producto:** `POST http://bellotj.alwaysdata.net/api/v1/products/:product_id`
   - Edita un producto existente en la base de datos.
 
-- **Eliminar Producto:** `DELETE /api/v1/products/:product_id`
+- **Eliminar Producto:** `DELETE https://bellotj.alwaysdata.net/api/v1/delete/:product_id`
   - Elimina un producto de la base de datos.
 
 - **Consultar Productos:** `GET /api/v1/products`

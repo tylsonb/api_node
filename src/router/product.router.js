@@ -69,8 +69,8 @@ router.get('/products/:product_id', async (req, res) => {
 
 // actulizar
 
-router.post('/products/:product_id', async (req, res) => { 
-    const id = req.params.product_id;
+router.post('/product/:product_id', async (req, res) => { 
+    const id = req.params.product_id;products
     const dataProducts = req.body;
 
     try {
